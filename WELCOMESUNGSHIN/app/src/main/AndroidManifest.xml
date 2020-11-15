@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.welcomesungshin">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_welcom"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_welcom_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".campus.Shortcut"></activity>
+        <activity android:name=".campus.MuToSung05Bridge" />
+        <activity android:name=".Recommend" />
+        <activity android:name=".Setting" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".HardFail" />
+        <activity android:name=".HardSuccess" />
+        <activity android:name=".NormalFail" />
+        <activity android:name=".NormalSuccess" />
+        <activity android:name=".Programmer" />
+        <activity android:name=".Explain" />
+        <activity android:name=".campus.Hakkwan04CafeIn" />
+        <activity android:name=".campus.Sujung10StuRes" />
+        <activity android:name=".campus.Sujung10Ele_C" />
+        <activity android:name=".campus.Sujung05Study_A" />
+        <activity android:name=".campus.Sujung05Ele_A" />
+        <activity android:name=".campus.Sujung04Ele_C" />
+        <activity android:name=".campus.Sujung02JobCafe" />
+        <activity android:name=".campus.Sujung02Ubi" />
+        <activity android:name=".campus.Sujung02Ele" />
+        <activity android:name=".campus.Sujung01SleepingRoom" />
+        <activity android:name=".campus.Sujung01JobCenter" />
+        <activity android:name=".campus.Sujung01Bluepot" />
+        <activity android:name=".campus.Sujung01Nancho" />
+        <activity android:name=".campus.Sujung01Print" />
+        <activity android:name=".campus.Sujung01" />
+        <activity android:name=".campus.Sungshin05Suharu" />
+        <activity android:name=".campus.Sungshin05Ele" />
+        <activity android:name=".campus.SungToSuBridge" />
+        <activity android:name=".campus.Sungshin04Ele" />
+        <activity android:name=".campus.Sungshin03Ele" />
+        <activity android:name=".campus.Sungshin01Ele" />
+        <activity android:name=".campus.Sungshin02Lit" />
+        <activity android:name=".campus.Sungshin02Ele" />
+        <activity android:name=".campus.Sungshin08Ele" />
+        <activity android:name=".campus.Music04ToSungshin" />
+        <activity android:name=".campus.Music04Ele" />
+        <activity android:name=".campus.CloudBridgeFront" />
+        <activity android:name=".campus.Nan07CloudBridge" />
+        <activity android:name=".campus.Nan07Ele" />
+        <activity android:name=".campus.NanParkToArt1" />
+        <activity android:name=".campus.NanPark" />
+        <activity android:name=".campus.NanToSungshin" />
+        <activity android:name=".campus.NanStuRes" />
+        <activity android:name=".campus.Nan03Ele" />
+        <activity android:name=".campus.Nan01Ele" />
+        <activity android:name=".campus.Hakkwan04Cafe" />
+        <activity android:name=".campus.Hakkwan02CafeIn" />
+        <activity android:name=".campus.Hakkwan02Cafe" />
+        <activity android:name=".campus.Hakkwan01Ele" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMNh-yxWqKt7Yile3UeL5aHMFbROMCNIM" />
+
+        <activity android:name=".Hard" />
+        <activity android:name=".Normal" />
+        <activity android:name=".Easy" />
+        <activity android:name=".GameLevel" />
+        <activity android:name=".Success" />
+        <activity android:name=".HangmanExplain" />
+        <activity android:name=".Fail" />
+        <activity android:name=".HangMainActivity" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Baseball" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".GameActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".campus.Hakkwan" />
+        <activity android:name=".campus.Johyungkwan" />
+        <activity android:name=".campus.Emakkwan" />
+        <activity android:name=".campus.Nanhyangkwan" />
+        <activity android:name=".campus.sujungkwan" />
+        <activity android:name=".campus.Sungshinkwan" />
+        <activity android:name=".FortuneCookie" />
+        <activity android:name=".EntertainmentActivity" />
+        <activity android:name=".NoticeActivity" />
+        <activity android:name=".FoodMapActivity" />
+        <activity android:name=".campus.SchoolMapActivity" />
+    </application>
+
+</manifest>
